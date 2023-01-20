@@ -1,0 +1,287 @@
+.img {
+    background-image: url("imagenes/mapa.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1500px;
+    height: 400px;
+    margin:none;
+    margin-top:-60px;
+}
+
+.movertexto{
+    text-align: center;
+    font-family: 'Tangerine', serif;
+        font-size: 48px;
+        color:antiquewhite;
+        margin-bottom: -50px;
+}
+body{
+    background-color: black;
+}
+
+
+.hojaimg{
+    background-image: url("imagenes/hoja.jpeg");
+    width: 1450px;
+    height: 1500px;
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 20px;
+
+
+}
+
+.bienvenidostitulo{
+    text-decoration-line: underline;
+    font-size: 50px;
+}
+
+.presentacionmia{
+font-size: 50px;
+}
+
+.educaciontitulo{
+    text-decoration-line: underline;
+}
+.educacion {
+    float:right;
+   
+}
+
+.experiencialaboraltitulo{
+    text-decoration-line: underline;
+}
+.experiencialaboral{
+    float:left;
+  
+}
+
+li{
+    line-height: 1.5;
+}
+
+dt{
+    font-weight: bold;
+}
+
+.hojacontacto {
+    background-image: url("imagenes/hojacontacto.jpg");
+}
+
+#barco{
+    margin-bottom: -130px;
+}
+
+#presentacionmia{
+    margin-top: 50px;
+}
+
+#vacio{
+    margin-bottom: 100px;
+}
+
+.h2{
+    font-size: small;
+}
+
+.logoargentina{
+margin-bottom: 3px;
+margin-top: -50px;
+width: 150px;
+height: 150px;
+}
+.logoface{
+    
+    margin-bottom: 70px;
+    margin-top: -3px;
+    float:right;
+    width: 50px;
+    height: 50px;
+}
+.logoinsta{
+    margin-bottom: 60px;
+    margin-top: -8px;
+    float: right;
+    width: 17mm;
+    height: 17mm;
+
+}
+.logos{
+    margin-bottom: -150px;
+
+}
+
+.loguearse{
+    background-color:blanchedalmond;
+    color: white;
+    
+
+}
+
+.habilidadimagen{
+    background-image: url("imagenes/hojacontacto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    
+}
+
+.habilidadestitulo{
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    text-decoration-line: underline;
+    font-size: 25px;
+}
+
+.habilidades{
+    font-family: 'Tangerine', serif;
+        margin:auto;
+        width: 50vh;
+        height: 50vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        ;
+}
+
+.barra{
+    width: 350vh;
+    height: 20px;
+    background: black;
+    border-radius: 10px;
+    box-shadow: 20px 25px 45px chocolate;
+    border-right: 3px solid rgba(225,225,225,0.5);
+    border-bottom: 3px solid rgba(225,225,225,0.5);
+}
+
+.h2{
+    text-align: center
+}
+
+.progreso{
+    width: var(--w);
+    height: 100%;
+    background: chocolate;
+    border-radius: 10px;
+    animation:Aumentar 5s ease;
+}
+
+@keyframes Aumentar{
+    0%{width:0%;}
+    100%{width:var(--w)}
+}
+
+.idiomastitulo{
+    text-decoration-line: underline;
+    font-size: 40px;
+
+}
+.idiomas{
+    background-image: url("imagenes/hoja.jpeg");
+    background-size: cover;
+    width: 600px;
+    height: 250px;
+    float: right;
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: "10";
+    margin-top: 20px;
+    animation-name: animacionidiomas;
+    animation-duration: 1s;
+    animation-direction: reverse;
+}
+
+@keyframes animacionidiomas {
+ 0% {transform: translateX(0);}
+ 100% {transform: translateX(100%)}
+    
+    
+}
+.proyectostitulo{
+    text-decoration-line: underline;
+    font-size: 40px;
+
+}
+.proyectos{
+    background-image: url("imagenes/hoja.jpeg");
+    background-size: cover;
+    width: 600px;
+    height: 250px;
+    float: left;
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    margin-top: 20px;
+    animation-name: animacionproyectos;
+    animation-duration: 1s;
+    animation-direction:reverse;
+   
+}
+
+@keyframes animacionproyectos {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(100%)}
+}
+
+.formulariocontacto{
+     background-image: url(imagenes/hoja.jpeg);
+    background-size: 100vh 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 25px;
+    margin-top: 300px;
+    height: 250px;
+   
+}
+.formu{
+    width: 400px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+   box-sizing: border-box;
+   margin-top: 20px;
+   border-radius: 7px;
+}
+
+.contacto{
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+.input,textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border:none;
+}
+
+.textarea{
+min-height: 100px;
+max-height: 200px;
+max-width: 100%;
+}
+
+.boton{
+    background: #31384A;
+    color: #fff;
+    padding: 20px;
+}
+
+.boton:hover{
+    cursor:pointer;
+}
+
+@media(max-width:480px){
+    form{
+        width: 100%;
+    }
+}

@@ -1,0 +1,24 @@
+body {
+      background-image: url("Imagenes/barco.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 500px;
+      height: 500px;
+      
+
+}
+ 
+      
+.moverEstetexto {
+      font-family: 'La Belle Aurore', cursive;
+      font-size: 30px;
+      text-align:end;
+      color: black;
+
+}
+
+.contenedor{
+      text-align: center;
+}
+
