@@ -1,0 +1,26 @@
+body {
+/*     font-family: 'Tangerine', serif;;
+    font-size: 30px; */
+    background-color: black;
+    color:antiquewhite;
+}
+
+.bg-dark {
+    background-color: #000 !important
+}
+/* .h1,h1{
+font-size: 58px;
+
+}
+
+.h2,h2{
+font-size: 48px;
+} */
+
+.seccion-imagen {
+    background-image: url("../Imagenes/hoja.jpeg");
+    color:black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

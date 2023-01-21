@@ -1,81 +1,98 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<title> Mi Portfolio Web</title>
-<meta name="description" content="Roughly 155 characters">
-<link rel="stylesheet" type="text/css" href="estiloIngresar.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="script.js"></script>
-<link rel="shortcut icon" href="Imagenes/compass.png">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <title>Mi Potfolio</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/restyle.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="Imagenes/argentinaprograma.jpg" alt="Bootstrap" height="30px">
+          </a>
+          <div>
+          <img src="Imagenes/logoinsta.png" height="20px">
+          <img src="Imagenes/logoinsta.png" height="20px">
+          <button>Login</button>
+        </div>
+        </div>
+      </nav>
+      <img width="100%" src="Imagenes/mapa.jpeg" class="img-fluid" alt="...">  
+      <div class="container-fluid text-center">
+        <div class="row align-items-start">
+          <div class="col">imAGEN</div>
+          <div class="col">
+            <h1>Lucila C. Crocco</h1>
+            <h2>Full Stack Developer Jr.</h2>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+ <br>
+ <br>
+     <div class="text-center">  
 
-<style>
-
-
-</style>
-<!-- contiene logos-->
-</head>
-<div class="logos">
-    <img src="Imagenes/argentinaprograma.png" class="logoargentina">
-    <a href="https://www.facebook.com/lucila.carla"><img src="Imagenes/124010.png"   class="logoface"></a>
-    <a href="https://www.instagram.com/lulucrocco/?hl=es"><img src="Imagenes/logoinsta.png" class="logoinsta"></a>
-  <div>
-    <h2>Iniciar Sesión</h2>
-    <button id="loguearse" href="login.html"> Iniciar Sesión </button>
-  </div>
-</div>
-
-
-
-<!-- contiene mapa superior y texto bienvenida-->
-<body>
-    <div>
-         <img src="Imagenes/mapa.jpeg" class="img" alt="">
-         <h1 class="movertexto">Lucila C. Crocco</h1>
-         <br>
-         <h2 class="movertexto">Full Stack Developer Jr.</h2>
-
-    </div>
+        <h2>Bienvenidos a Mi Portfolio Web</h2>
         
-         
-<!-- contiene foto de perfil-->
-<img id="barco" src="Imagenes/barco2.jpg">
-<!-- debe contener hoja con informacion superpuesta-->
-    <div class="hojaimg">
-        <br>
-        <h1 class="bienvenidostitulo">Bienvenidos a Mi Portfolio Web</h1>
-        <br>
-        
-
-        <h1 class="presentacionmia">
+        <p>
             ¡Hola! Soy Lucila Carla Crocco, y en el año 2022 comencé mis estudios en programación, dando mis primeros pasos
             con el curso Full Stack. 
             Entendiendo la importancia del conocimiento en esta rama,deseo continuar especializándome y en un futuro poder 
             aplicar lo aprendido en lo laboral.
             Éste portfolio es mi proyecto de finalización del curso, donde podrán conocer un poco mas sobre mí.
             Muchas gracias
-        </h1>
-        <br>
-        <br>
-        <br>
-        <br>
-       
+        </p>
+     </div>
+     
+      <div class="container-fluid text-center seccion-imagen">
+        <div class="row align-items-start">
+          <div class="col">
+            <h2>Experiencia Laboral</h2>
+           <ul>
+            <br>   
+            <li>
+               <dt> Observatorio Central Buenos Aires</dt>
+               <dd> Servicio Meteorológico Nacional</dd> 
+               <dd> Cargo: Observadora Meteorológica de Superficie y Medición de Ozono Estratosférico</dd> 
+               <dd> 2015 - Actualidad</dd> 
+            </li>
+            <br>   
+            
+            <li>
+                <dt> BBVA Frances</dt>
+                <dd> Cargo: Azafata</dd> 
+                <dd> 2012 - 2015</dd> 
+             </li>
+             <br>
+             
+            <li>
+               <dt> Administración de consorcios "Ortíz"</dt>
+               <dd> Cargo: Secretaria general, administrativo.</dd> 
+               <dd> 2011 - 2012</dd> 
+            </li>
+            
+        
+          </ul>
+        </div>
 
- 
-            <div class="educacion">
-                <h1 class="educaciontitulo"> Educación</h1>
-                <div>
+   
+          
+          <div class="col">
+               <h2>Educación</h2>
+               <div>
                     <ul>
-                    <h2> 
-                        <br>
+                      <br>
                         <li>
                           <dt>Curso YoProgramo</dt>
                           <dd>Full Stack Developer.</dd>
                           <dd>2022-Actualidad</dd>
                           <dd>Estado: En curso </dd>
                         </li>
-                        <br>
+                      <br>
                            
                         <li>
                           <dt> Universidad Nacional de La Plata </dt>
@@ -84,14 +101,14 @@
                           <dd>Estado: En curso</dd>
                          
                         </li>
-                        <br>
+                      <br> 
                         <li>
                            <dt> Servicio Meteorológico Nacional</dt>
                            <dd> Observación Meteorológica de Superficie</dd> 
                            <dd> 2013 - 2014</dd> 
                            <dd> Estado: Finalizado </dd>   
                         </li>
-                        <br>
+                     <br>   
                         <li>
                             <dt> Secundario Comercial 33 "Maipú":</dt>
                             <dd> Perito Mercantil con Orientación Contable e Impositiva.</dd> 
@@ -99,134 +116,87 @@
                             <dd> Estado: Finalizado</dd> 
                         </li>
 
-                     </h2>  
+                     
 
                     </ul>
                 </div>
             </div>
-                    <div class="experiencialaboral">
-                    <h1 class="experiencialaboraltitulo">Experiencia Laboral</h1>
-                    <ul>
-                        <h2>
-                        <br>
-                        <li>
-                           <dt> Observatorio Central Buenos Aires</dt>
-                           <dd> Servicio Meteorológico Nacional</dd> 
-                           <dd> Cargo: Observadora Meteorológica de Superficie y Medición de Ozono Estratosférico</dd> 
-                           <dd> 2015 - Actualidad</dd> 
-                        </li>
-                        <br> 
-                        
-                        <li>
-                            <dt> BBVA Frances</dt>
-                            <dd> Cargo: Azafata</dd> 
-                            <dd> 2012 - 2015</dd> 
-                         </li>
-                         <br>
-                         
-                        <li>
-                           <dt> Administración de consorcios "Ortíz"</dt>
-                           <dd> Cargo: Secretaria general, administrativo.</dd> 
-                           <dd> 2011 - 2012</dd> 
-                        </li>
-                        <br>
-                        
-                    
-
-                        </h2>
-                    </ul>
-                    </div>
-            
-                </div>
-            
+        </div>
     </div>
-
-
-<div class="habilidadimagen">
-    <div class="habilidadestitulo">
-        <h1>Habilidades</h1>
-        </div>
-        <div class="habilidades">
-        <h2>HTML</h2>
-        <div class="barra">
-            <div class="progreso" style="--w:40%"></div>
-        </div>
-
-        <h2>CSS</h2>
-        <div class="barra">
-            <div class="progreso" style="--w:40%"></div>
-        </div>
-
-        <h2>JS</h2>
-        <div class="barra">
-            <div class="progreso" style="--w:30%"></div>
-        </div>
-
-        <h2>JAVA</h2>
-        <div class="barra">
-            <div class="progreso" style="--w:30%"></div>
-        </div>
-         
-
-
-    </div>
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
- <div class="idiomas">
-    <h1 class="idiomastitulo"> Idiomas</h1>
-    
-    <h2> Inglés</h2>
-    <h3>Nivel Intermedio</h3> 
-
-    <h2>Hebreo</h2>
-    <h3>Nivel Principiante</h3>
-
- <br>
- <br>
- <br>
- <br>
-
-</div>
-    <div class="proyectos">
-        <h1 class="proyectostitulo">Proyectos</h1>
-
-        <ul>
-            <h2>
-            <br>
-            <li> 
-               <a class="veraqui"href="index.html"> Mi Potfolio Web </a>
-               <dd> -Trabajo final Argentina Programa</dd> 
+          
         
-            </li>
-            <br> 
+            <div class="container text-center">
+                <div class="row align-items-start">
+                    <div class="col">
+                        <h2>Habilidades</h2>
+                        <h3>HTML</h3>
+                        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-warning" style="width: 40%"></div>
+                        </div>
+                        <h3>CSS</h3> 
+                        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-warning" style="width: 40%"></div>
+                        </div>
+                        <h3>JS</h3>
+                        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-warning" style="width: 30%"></div>
+                        </div>
+                        <h3>JAVA</h3>
+                        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-warning" style="width: 30%"></div>
+                        </div>
+                        <h3>ANGULAR</h3>
+                        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-warning" style="width: 30%"></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h2> Idiomas</h2>
+                        <h3> Inglés</h3>
+                        <h4>Nivel Intermedio</h4> 
+                        <h3>Hebreo</h3>
+                        <h4>Nivel Principiante</h4>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="container-fluid text-center seccion-imagen">
+                <div class="row align-items-start">
+                    <div class="col">
+                        <h2>Proyectos</h2>
+                        <h3> Mi Potfolio Web </h3>
+                        <h4> -Trabajo final Argentina Programa</h4>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="container text-center">
+                <div class="row align-items-start">
+                    <div class="col"></div>
+                    <div class="col">
+                        <title>Contacto</title>
+                        <form action="">
+                            <h2>Contacto</h2>
+                            <div class="mb-3">
+                                <label for="input-nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="input-nombre" placeholder="Nombre">
+                              </div>
+                            <div class="mb-3">
+                                <label for="input-mail" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="input-mail" placeholder="name@example.com">
+                              </div>
+                              <div class="mb-3">
+                                <label for="input-mensaje" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="input-mensaje" rows="3"></textarea>
+                            </div>   
+                        </form>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
             
-       
-    </div>
 
+    <script src="js/bootstrap.bundle.min.js"></script>
 
-</div>  
-
- <!--Sección de contacto-->
-<div class="formulariocontacto"> 
-    <title>Contacto</title>
-    <form class="formu" action="">
-        <h2 class="contacto">Contacto</h2>
-        <input type="text" name="Nombre" placeholder="Nombre">
-        <input type="text" name="Correo" placeholder="Correo">
-       <textarea name="Mensaje" placeholder="Escriba aquí su mensaje" id="" cols="30" rows="10"></textarea>
-       <input type="button" value="Enviar" id="boton">
-    </form>
-</div>
- 
-
-     
-    
-
-    
-<script src="script.js"></script>
-</body>
+  </body>
 </html>
